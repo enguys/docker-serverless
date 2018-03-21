@@ -1,0 +1,9 @@
+services:
+  - docker
+env:
+  global:
+    - REGISTRY_USER=lucyparker
+
+script:
+  - docker build -t enguys/serverless .
+  - docker run enguys/serverless
