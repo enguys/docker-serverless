@@ -8,6 +8,7 @@ RUN apk -v --update add \
         py-pip \
         groff \
         less \
+        zip \
         && \
     pip install awscli==${AWSCLI_VERSION} && \
     apk -v --purge del py-pip && \
