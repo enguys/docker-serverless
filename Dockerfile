@@ -16,4 +16,3 @@ RUN apk -v --update add \
 
 VOLUME /project
 WORKDIR /project
-ENTRYPOINT ["serverless"]
